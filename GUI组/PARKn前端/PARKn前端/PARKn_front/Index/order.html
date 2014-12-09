@@ -14,7 +14,7 @@
 <body class="templatemo-bg-gray">
 			<div class="row">
             	<div class="col-md-6"  >
-            	<label><h4>&nbsp&nbsp&nbsp&nbsp PARKn shopping</h4></label>
+            	<label><h4>&nbsp&nbsp&nbsp&nbsp PARKn shop</h4></label>
             	</div>
         		<div class="col-md-2" style="margin-top:10px ">
         		<label for="home" class="control-label fa-label"><i class="fa fa-home fa-medium"></i></label>
@@ -55,11 +55,12 @@
         				<label for="check" class="control-label fa-label" id="aa" style="visibility:hidden"><i class="fa  fa-share-square-o fa-left"></i></label>
         				<label id="aaa" style="visibility:hidden">&nbsp&nbsp&nbsp&nbsp post to &nbsp&nbsp&nbsp&nbsp</label>
         			
-        			<label><input type="checkbox"> Xidian University DingXiang (Zhang San)  Tel-13111111111  </label>
+        			
+                    <label><input type="checkbox" checked ="checked"> Xidian University DingXiang (Zhang San)  Tel-13111111111  </label>
        				</div>
         		</div>
         		<div class="col-md-1" >
-        			<label>pretermission</label>
+        			<label>( default )</label>
         		</div>
         		<div class="col-md-3">
         			<a href="" >Modify</a>
@@ -124,44 +125,35 @@
         		</div>
 			</div>
 			<div class="row" style="margin-top:30px ">
-				<div class="col-md-3">
-        		</div>
-        		<div class="col-md-3" >
-        			<div >
-	        		<p class="bg-primary"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Rookie post collection service</p>
-	        		</div>
-        		</div>
-        		<div class="col-md-3">
-        		</div>
-        		<div class="col-md-3">  
-        			<label><i class="fa fa-chevron-up fa-medium"></i><a href="">pack up</a></label>
-        		</div>	
-			</div>
-			<!-- <div class="row">
-				<div class="col-md-3">
-        		</div>
-        		<div class="col-md-7"style="margin-top:10px" >
-        	    <ol class="breadcrumb" style="background-color:#888888" >
-        		</div>
-        		<div class="col-md-2">
-        		</div>
-        	</div> -->
-			<div class="row" style="margin-top:10px ">
-				<div class="col-md-2">
-        		</div>
-        		<div class="col-md-6">
-        			<div id="e">
-        			<label for="check" class="control-label fa-label" id="ee" style="visibility:hidden"><i class="fa  fa-share-square-o fa-left"></i></label>
-        			<label id="eee" style="visibility:hidden">&nbsp&nbsp&nbsp&nbsp post to &nbsp&nbsp&nbsp&nbsp</label>
-        			<label><input type="checkbox"> The use of collection service ( Receiving inconvenience ) </label>
-        			</div>
-        		</div>
-        		<div class="col-md-1">
-        			<label></label>
-        		</div>
-        		<div class="col-md-3">
-        		</div>
-			</div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3" >
+                    <div >
+                    <p class="text-danger"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Rookie post collection service</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-2 btn-group">  
+                    <button type="button"  class="btn btn-success btn-xs " id="btn1"  onclick="bian();" value="0">pick down&nbsp&nbsp<i class="fa  fa-arrow-down fa-medium"></i></button>
+                    
+                </div>  
+            </div>
+            <div class="row" style="margin-top:10px ">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-6 col-md-offset-2">
+     
+                    <label ><input type="checkbox" > The use of collection service 1 ( Receiving inconvenience ) </label><br>
+                    <label style="display:none" id="label1"><input type="checkbox"> The use of collection service 2 ( Receiving inconvenience ) </label><br>
+                    <label style="display:none" id="label2"><input type="checkbox"> The use of collection service 3 ( Receiving inconvenience ) </label><br>
+                    <label style="display:none" id="label3"><input type="checkbox"> The use of collection service 4 ( Receiving inconvenience ) </label><br>
+                
+                </div>
+                <div class="col-md-1">
+                    <label></label>
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
 			<div class="row" style="margin-top:30px ">
         		<div class="col-md-1">
         		</div>
@@ -207,6 +199,12 @@
         		<div class="col-md-2">
         		</div>
         	</div>
+            <div class="row" style="margin-top:10px ">
+                <div class="col-md-4 col-md-offset-4">
+                   <a href="#"> <input type="submit" value="Confirm the Purchase" class="btn btn-primary btn-lg btn-block"  ></a>
+                </div>
+            </div>
+            
         	
 			
 			
@@ -269,5 +267,34 @@
 						document.getElementById('ddd').style.visibility="hidden"
 			}
 			</script> 
+            <script type="text/javascript">
+                    function bian()
+                       { 
+
+                        
+                        
+                        if ( document.getElementById('btn1').value=="0"){
+                             document.getElementById('btn1').innerHTML='pick&nbspup&nbsp&nbsp<i class="fa  fa-arrow-up fa-medium"></i>';
+                             document.getElementById('btn1').value="1";
+                             document.getElementById('label1').style.display=""
+                             document.getElementById('label2').style.display=""
+                             document.getElementById('label3').style.display=""
+                            
+                       
+                             }
+                        else if( document.getElementById('btn1').value=="1"){
+                                document.getElementById('btn1').innerHTML='pick down&nbsp&nbsp<i class="fa  fa-arrow-down fa-medium"></i>';
+                                document.getElementById('btn1').value="0";
+                                document.getElementById('label1').style.display="none"
+                                document.getElementById('label2').style.display="none"
+                                document.getElementById('label3').style.display="none"
+                            
+                            
+                        }
+                       
+                       
+                       }   
+                   
+            </script> 
 </body>
 </html>
