@@ -1,0 +1,436 @@
+#searchnav{
+	width: 1000px;
+	margin: auto;
+	height: 20px;
+	
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.searchnavfont a{
+	font-size: 14px;
+	line-height: 20px;
+}
+#goodsmain{
+	margin-top: 5px;
+	width: 1000px;
+	height: 700px;
+	
+	margin: auto;
+}
+.goodsleft{
+	width: 800px;
+	height: 600px;
+	
+	float: left;
+}
+.goodsrigt{
+	width: 190px;
+	
+	background: #F2DEDE;
+	float: right;
+}
+.commiditygoods1{
+	height: 560px;
+	width: 300px;
+	background: #FFF1E4;
+	float: left;
+}
+.commiditygoods1 img{
+	height: 450px;
+	width: 300px;
+	
+}
+.mainback{
+	
+	
+}
+.commiditygoods1 ul {
+	height: 92px;
+	width: 300px;
+	margin-top: 5px;
+	background: #F0AD4E;
+}
+.commiditygoods1 ul li{
+	height: 80px;
+	width: 67px;
+	display: inline-block;
+	zoom: 1;
+	margin-left: 1px;
+	margin-right: 1px;
+	
+}
+.commiditygoods1 ul li img{
+	height: 90px;
+	width: 67px;
+}
+.commiditygoods2{
+	height: 600px;
+	width: 480px;
+	
+	float: right;
+}
+.goodsdetaillist1{
+	height: 50px;
+	width: 480px;
+	
+	
+}
+.goodsdetaillist1 span{
+	
+	height: 20px;
+	
+	line-height: 20px;
+	
+	color: #101010;
+	
+}
+.goodsdetaillist1 b{
+
+	display: block;
+	height: 30px;
+	
+	font-size: 22px;
+	line-height: 30px;
+	font-weight:normal;
+	color: #000000;
+	border-bottom: 2px solid  #CC3399;
+}
+.goodsdetaillist2{
+	height: 40px;
+	width: 480px;
+	background: #F5E79E;
+	
+	color:#000000;
+}
+#navbackground{
+	background: #F5E79E;
+}
+.goodsdetaillist2 span{
+	font-size: 25px;
+	line-height:40px ;
+	
+}
+.goodsdetaillist2 i{
+	text-decoration: line-through;
+}
+#goodsshop ul li{
+	margin-top: 5px;
+	
+}
+#goodsshop ul li label{
+	display: inline-block;zoom: 1;
+	width: 100px;
+	text-align: right;
+}
+.shopinglist1{
+	height: 25px;
+	line-height: 25px;
+	
+	
+}
+.shopinglist1 span{
+	font-size: 17px;
+}
+.shopinglist2{
+	height: 50px;
+
+	line-height: 50px;
+}
+#goodsshop ul li div,#goodsshop ul li div span{
+	display: inline-block;zoom: 1;
+}
+.shopinglist2 div span,.shopinglist3 div span{
+	height: 50px;
+	width: 40px;
+	margin-left: 5px;
+	
+}
+.shopinglist2 div span img,.shopinglist3 div span img{
+	height: 48px;
+	width: 40px;
+}
+.shopinglist4{
+	height: 35px;
+	
+}
+.shopinglist4 div span{
+	
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+.shopinglist4 div span.lispancolor{
+	background: #F2DEDE;
+	width: 30px;
+	font-size: 24px;
+	
+}
+.shopinglist5{
+	height: 25px;
+}
+.shopinglist5{
+	height:25px ;
+}
+.shopinglist7{
+	
+	text-align:right;
+	height: 80px;
+	line-height: 80px;
+	
+}
+
+.shopinglist7 input{
+	border-style: none;
+	background: #CC3399;
+	margin-right: 50px;
+	height: 30px;
+	width: 200px;
+}
+.shopinglist8 {
+	height: 90px;
+	line-height: 90px;
+	text-align: right;
+
+}
+.shopinglist8 a{
+	display: inline-block;zoom: 1;
+	
+	margin-left: 10px;
+	
+	
+	
+}
+.shopinglist8 a img{
+	width: 30px;
+	height: 30px;
+}
+.shopinglist9{
+	height: 40px;
+}
+.shopinglist9 a{
+	display: inline-block;zoom: 1;
+	height: 40px;
+	width: 150px;
+	margin-right: 2px;
+	background: #F2DEDE;
+}
+.shopinglist9 a img{
+	height: 40px;
+	width: 150px;
+}
+
+
+.goodsrigt1{
+	
+	width: 188px;
+	height: 280px;
+	border: 1px solid #CC3399;
+	margin-bottom: 5px;
+}
+.goodsrigt1 img{
+	height:230px;
+	width: 188px;
+}
+.goodsrigt1 span{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	display: block;
+	margin-left: 20px;
+}
+.goodsrigt1 a{
+	background: #CC3399;
+	display: inline-block;zoom: 1;
+	height: 20px;
+	width: 150px;
+	
+	
+}
+#commnet{
+	float: left;
+	width: 800px;
+
+	
+}
+.commentleft{
+	width: 150px;
+
+	float: left;
+	background: #F2DEDE;
+}
+.commentgoods{
+	width: 148px;
+	height:240px ;
+	border: 1px solid #CC3399;
+	margin-bottom: 10px;
+}
+.commentgoods img{
+	width: 148px;
+	height: 180px;
+}
+.commentgoods span{
+	display: block;
+	
+	text-align: center;
+}
+.commentgoods span a{
+	display: inline-block;max-zoom: 1;
+	width: 120px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 5px;
+	background: #CC3399;
+	font-weight: bold;
+}
+.commentgoods1{
+	height: 20px;
+}
+.commentgoods2{
+	height: 35px;
+	line-height: 35px;
+}
+
+.commentright{
+	width: 640px;
+
+	background:#F3F3F3 ;
+	margin-left: 10px;
+	float: right;
+	
+}
+#commentnav{
+	height: 30px;
+	background:#F8EFC0;
+	
+}
+#commentnav ul li{
+	height: 30px;
+	float: left;
+	width: 200px;
+	line-height: 30px;	
+	margin-right: 5px;
+	text-align: center;
+}
+.commentnavcolor{
+	background:#CC3399 ;
+}
+
+.commentsocre{
+	margin-top: 2px;
+	height: 100px;
+	background: #F5FBFF;
+}
+.commentsocre div,.commentsocre ul{
+	float: left;
+	height: 100px;
+}
+.commentsocre div{
+	width:300px ;
+	
+}
+.commentsocre div span{
+	display: block;
+	line-height: 30px;
+	font-size: 30px;
+	height: 30px;
+	text-align: center;
+	
+}
+.commentsocre div b{
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	font-size: 70px;
+
+	text-align: center;
+}
+.commentsocre ul li{
+	height: 15px;
+	font-size: 14px;
+	line-height: 15px;
+	margin-bottom: 5px;
+	
+}
+.commentsocre ul li span{
+	display: inline-block;zoom: 1;
+	width: 100px;	
+	text-align: right;
+}
+.commentsocre ul li a{
+	display: inline-block;zoom: 1;
+	width: 200px;	
+}
+.commentdetail{
+	height: 100px;
+	background: #F5FBFF;
+	margin-top: 2px;
+
+}
+.commentdetail p{
+	display: block;
+	height: 60px;
+	word-wrap: break-word;
+	width: 620px;
+	text-indent: 3em;
+	margin-left: 5px;
+
+}
+.commentdetail span{
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+
+	line-height:20px ;
+	
+}
+
+#goodsdetaillist{
+
+	background: #F5F5F5;
+}
+#goodsdetaillist ul li{
+	height:30px ;
+	margin-bottom: 5px;
+
+	line-height: 30px;
+}
+#goodsdetaillist ul li span {
+	display: inline-block;zoom: 1;
+	width: 200px;
+	text-align: right;
+	font-size: 20px;
+}
+#goodsdetaillist ul li a {
+	display: inline-block;zoom: 1;
+	width: 300px;
+	text-align: left;
+	margin-left: 5px;
+}
+.goodsdetaillist1{
+	margin-top: 10px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	border-bottom: 1px dotted #CC3399;
+	
+}
+.productPotos{
+	margin-top: 5px;
+	display: inline-block;zoom: 1;
+	background: #F0AD4E;
+	margin-right:4px ;
+
+}
+.productPotossize1{
+	height: 300px;
+	width: 400px;
+}
+.productPotossize2{
+	height: 300px;
+	width: 220px;
+}
+.productPotossize3{
+	height: 200px;
+	width: 612px;
+}
