@@ -1,0 +1,142 @@
+body{
+	color: #000000;
+}
+#top .topList{
+	width: 1000px;
+}
+#main #logo{
+	width: 1000px;
+	margin: auto;
+}
+#main #nav{
+	width: 1000px;
+	margin: auto;
+}
+
+#mycarttable{
+	margin: auto;
+	width: 1000px;
+	margin-bottom: 50px;
+	
+	
+}
+
+#mycarttable .mycarttablelist{
+	height: 30px;
+	font-size:24px;
+	font-weight: 700;
+	line-height: 30px;
+	margin: 10px auto 10px auto;
+	border-bottom:1px dotted #CC3399;
+	
+	
+}
+#mycarttable table thead tr{
+	height: 55px;
+	background: #F7F7F7;
+	border-top: 1px solid #CC99CC;
+	border-bottom: 1px solid #F2DEDE;
+	border-left: 1px solid #F2DEDE;
+	border-right: 1px solid #F2DEDE;
+	
+}
+#mycarttable table thead tr th{
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+}
+#mycarttable table tbody tr{
+	height: 150px;
+	
+	border-top: 1px solid #CC99CC;
+	border-bottom: 1px solid #F2DEDE;
+	border-left: 1px solid #F2DEDE;
+	border-right: 1px solid #F2DEDE;
+}
+#mycarttable table tbody tr td{
+	text-align: center;
+	font-size: 16px;
+	
+	
+}
+.cartTable2 img{
+
+	height: 70px;
+	width: 90px;
+}
+.cartTable3{
+	font-weight: bold;
+	font-size: 24px;
+	
+}
+.cartTable4 span{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-right: 2px;
+}
+.cartTable4 span.tablelist{
+	background: #F2DEDE;
+}
+#mycarttable table tfoot tr{
+	height: 55px;
+	background: #F7F7F7;
+	border-bottom: 1px solid #CC99CC;
+	
+	border-left: 1px solid #F2DEDE;
+	border-right: 1px solid #F2DEDE;
+	
+}
+#mycarttable table tfoot tr td div{
+	display: inline-block;zoom: 1;
+	width: 300px;
+	text-align: right;
+} 
+#mycarttable table tfoot tr td div.tablefootlist2 span{
+	display: inline-block;zoom: 1;
+	width: 150px;
+	text-align: right;
+}
+#mycarttable table tfoot tr td div.tablefootlist2 b{
+	display: inline-block;zoom: 1;
+	width: 150px;
+	text-align: center;
+	font-size: 1.8em;
+	color:red;
+	font-weight:normal;
+
+}
+#mycarttable table tfoot tr td div.tablefootlist3{
+	text-align: right;
+	
+}
+#mycarttable table tfoot tr td div.tablefootlist3 input{
+	border: none;
+	height: 40px;
+	width: 250px;
+	background: #CC3399;
+	color: #FFFFFF;
+	position: relative;
+	left: 50px;	
+}
+#cartfooter{
+	border-top: 1px solid #CC99CC;
+	background: #F7F7F7;
+}
+#footerlist{
+	border: none;
+	margin: auto;
+}
+#footerImageList{
+	width: 1000px;
+	margin: auto;
+}
+#footerImageList div{
+	width: 250px;
+}
+#footerlist{
+	width: 1000px;
+}
+#footerlist div{
+	width: 164px;
+}
