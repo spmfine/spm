@@ -1,17 +1,27 @@
 #sear{
 float:left;
 width:1000px;
-height:900px;
+height:1000px;
 }
 #recommend{
 width:200px;
-height:900px;
+height:1000px;
 border:#D0D0D0 solid;
 }
 .search{
 border:#D0D0D0 solid 1px;
-margin:2px;
+margin:1px;
 float:left;
+}
+.searchBig{
+border:none;
+margin:4px;
+float:left;
+}
+.recommend{
+border:none;
+margin:3px;
+
 }
 .blank10 {
     clear: both;
@@ -20,7 +30,9 @@ float:left;
     overflow: hidden;
     height: 10px;
 }
-
+.pagNum{
+text-align:center;
+}
 .adtext{
 
 height:68px;
