@@ -1,0 +1,247 @@
+body{
+	
+	background: #FFFFFF;
+	font-family: 'Sintony', sans-serif;
+	
+	
+}
+/*
+ 该处是TopList的css
+ * */
+#top{
+	height: 30px;
+	background:#F7F7F7 ;
+}
+div.topList{
+	width: 1000px;
+	height: 30px;
+	
+	margin:auto;
+	
+	
+}
+div.tleft{
+	float: left;
+	margin-right: 30px;
+}
+div.tReft{
+	background: #FFFFFF;
+	float: right;
+	margin-left: 30px;
+}
+div.topList div{
+	
+	height: 30px;
+
+	position:relative;
+	
+}
+div.topList div a{
+	line-height: 30px;
+}
+div.topList .tUserName{
+	
+}
+div.topList .tUserName span{
+	font-size: 24px;
+	font-weight: 150px;
+	
+}
+.tUlFloat{
+	position: absolute;
+	display:none;
+	width:200px;
+	
+	
+}
+ul.tUlFloat{
+	background: #FFFFFF;
+	#border:1px solid #CCCCCC;
+	
+}
+ul.tUlFloat li{
+	background:#FFFFFF ;
+	list-style: none;
+	margin-bottom: 2px;
+	
+}
+
+
+/*
+ 该处是logoSearch的内容
+ * */
+#main{
+	margin: auto;
+	width: 1000px;
+	margin-top:30px ;
+	
+	
+}
+#logo{
+	height: 50px;
+	background: #CC3399;
+}
+#logo div{
+	float: left;
+	
+}
+
+#logo div.lLogoImage {
+	height:50px;
+	width:210px;
+	
+}
+#logo div.lMSearch{
+	margin-top:10px;
+	float: right;
+	height: 30px;
+	
+	border-left:1px solid #FFFFFF;
+	border-top:1px solid #FFFFFF;
+	border-bottom:1px solid #FFFFFF;
+	border-right: 0px;
+	
+	background: #CC3399;
+	
+	width:470px;
+	
+}
+div.lMSearch .mSearchText{
+	height:28px;
+	width:390px;
+	border-style: none;
+	padding-left: 7px;
+	background: #FFFFFF url(../images/magnifier.gif) no-repeat 10px 8px;
+	
+	
+}
+div.lMSearch .mSearchSubmt{
+	border-style: none;
+	background: #CC3399;
+	height: 30px;
+	width: 90px;
+	margin-left:-26px ;
+	color: #FFFFFF;
+	
+}
+
+.noShop{
+float:none;
+}
+.blankSmall{
+width:1000px;
+height:20px;
+}
+ .blankMiddle{
+width:1000px;
+height:50px;
+}
+.base {
+ border: 1px solid #000;
+ margin: 10px;
+ width: 150px;
+
+ }
+ .blank1{
+width:200px;
+height:800px;
+float:left;
+}
+.aboutShop{
+height:120px;
+border:#CC3399 solid 1px;
+text-align:center;
+}
+.aboutShopTable{
+height:30px;
+width:150px;
+background:#CC33CC;
+float:left;
+}
+.aboutShopBox{
+height:120px;
+width:250px;
+float:left;
+}
+.shopMenagement{
+height:600px;
+border:#CC3399 solid 1px;
+}
+.shopMenagementTable{
+height:30px;
+width:150px;
+background:#CC33CC;
+float:left;
+text-align:center;
+}
+.shopMenagementblank{
+height:60px;
+width:800px;
+}
+.shopMenagementblank1{
+height:550px;
+width:50px;
+float:left;
+}
+.shopMenagementLeft{
+height:600px;
+width:280px;
+float:left;
+}
+.shopMenagementLeftSub{
+width:200px;
+}
+.shopMenagementRight{
+height:500px;
+width:580px;
+border:#CC3399 solid 1px;
+float:left;
+}
+.myGoods{
+height:100px;
+}
+.myGoodsdiv
+{
+width:140px;
+float:left;
+}
+
+
+.refunedBox1{
+width:120px;
+float:left;
+}
+.refunedBox2{
+width:140px;
+float:left;
+}
+.refunedBox3{
+width:200px;
+float:left;
+}
+.refunedBox4{
+width:100px;
+float:left;
+}
+
+
+.chatBox{
+background:#FFE4B5;
+height:100px;
+width:480px;
+float:left;
+}
+.chatBox1{
+background:#FFE1FF;
+height:50px;
+width:580px;
+}
+.chatBox2{
+background:#FFE4B5;
+height:50px;
+width:580px;
+}
+.button{
+height:50px;
+float:right;
+}
