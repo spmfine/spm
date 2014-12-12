@@ -69,31 +69,33 @@
 	
 	float: right;
 }
-.goodsdetaillist1{
+.comgoodsdetaillist1{
 	height: 50px;
 	width: 480px;
-	
+
+
 	
 }
-.goodsdetaillist1 span{
+.comgoodsdetaillist1 span{
 	
 	height: 20px;
-	
+	display: block;
 	line-height: 20px;
 	
 	color: #101010;
 	
 }
-.goodsdetaillist1 b{
+.comgoodsdetaillist1 b{
 
 	display: block;
-	height: 30px;
+	
 	
 	font-size: 22px;
-	line-height: 30px;
+	
 	font-weight:normal;
 	color: #000000;
-	border-bottom: 2px solid  #CC3399;
+	border-bottom: 1px dotted  #CC3399;
+	
 }
 .goodsdetaillist2{
 	height: 40px;
