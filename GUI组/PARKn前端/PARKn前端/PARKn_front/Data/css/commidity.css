@@ -32,8 +32,13 @@
 .commiditygoods1{
 	height: 560px;
 	width: 300px;
-	background: #FFF1E4;
+
 	float: left;
+}
+.commiditygoods1large{
+	height: 450px;
+	width: 300px;
+
 }
 .commiditygoods1 img{
 	height: 450px;
@@ -48,7 +53,7 @@
 	height: 92px;
 	width: 300px;
 	margin-top: 5px;
-	background: #F0AD4E;
+	
 }
 .commiditygoods1 ul li{
 	height: 80px;
