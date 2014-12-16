@@ -165,7 +165,9 @@ float:left;
 }
 .shopMenagement{
 height:600px;
+width:1000px;
 border:#CC3399 solid 1px;
+float:left;
 }
 .shopMenagementTable{
 height:30px;
@@ -190,6 +192,8 @@ float:left;
 }
 .shopMenagementLeftSub{
 width:200px;
+text-align:left;
+height:100px;
 }
 .shopMenagementRight{
 height:500px;
@@ -200,19 +204,26 @@ float:left;
 .myGoods{
 height:100px;
 }
+.myGoodsdiv0
+{
+width:100px;
+float:left;
+
+}
 .myGoodsdiv
 {
-width:140px;
+width:150px;
 float:left;
+text-align:left;
 }
 
 
 .refunedBox1{
-width:120px;
+width:100px;
 float:left;
 }
 .refunedBox2{
-width:140px;
+width:150px;
 float:left;
 }
 .refunedBox3{
@@ -230,16 +241,19 @@ background:#FFE4B5;
 height:100px;
 width:480px;
 float:left;
+text-align:left;
 }
 .chatBox1{
 background:#FFE1FF;
 height:50px;
 width:580px;
+text-align:left;
 }
 .chatBox2{
 background:#FFE4B5;
 height:50px;
 width:580px;
+text-align:left;
 }
 .button{
 height:50px;
